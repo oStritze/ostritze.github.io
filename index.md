@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-You can use the [editor on GitHub](https://github.com/oStritze/ostritze.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+layout: default
+title: Home
+permalink: /
+---
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Hello!
 
-### Markdown
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <div style="flex: 1; padding-right: 20px;">
+    <p>
+        Hi my name is Oliver Stritzel and I am a Data Engineer and Data Scientist based in Nuremberg, Germany. I try to teach machines to do useful stuff to make your life easier.
+    </p>
+    <p>
+        I have worked as a data scientist for over 5 years and as a data engineer for 3 years previously. 
+    </p>
+  </div>
+  <div>
+    <img src="static/foto_oval.png" alt="me.png" style="width: 150px;">
+  </div>
+</div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+<br>
 
-**Bold** and _Italic_ and `Code` text
+---
 
-[Link](url) and ![Image](src)
-```
+<br>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
+Feel free to check out my <a href="/files/cv_en.pdf" download>cv</a>, my [projects]({{ site.baseurl }}/projects/) or [reach out]({{ site.baseurl }}/contact/)!
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/oStritze/ostritze.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
