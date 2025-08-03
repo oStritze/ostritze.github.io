@@ -36,7 +36,7 @@ images:
 </div>
 
 
-Feel free to check out my <a href="/files/cv_en.pdf" download>cv</a>, my [projects]({{ site.baseurl }}/projects/) and [reach out]({{ site.baseurl }}/contact/)!
+Feel free to check out my <a href="/static/cv_en.pdf" download>cv</a>, my [projects]({{ site.baseurl }}/projects/) and <a href="mailto:{{ site.email }}">reach out</a>!
 
 
 ### Exposé

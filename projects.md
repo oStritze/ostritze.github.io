@@ -79,7 +79,7 @@ A (chronological) excerpt of projects i was working on.
 
 ## 2018
 ### Designing a Centralized Logging Platform
-- __Context:__ Internal Project @ING-DiBa
+- __Context:__ Internal Project @ ING-DiBa
 - __What:__ Design and development of an on-premise, multi-tenant monitoring and log aggregation platform, based on Redhat OpenShift/Kubernetes, Docker, Apache Kafka and Elastic-Stack: Elasticsearch, Kibana, Logstash and Beats. Handling terabytes of daily log data from hundreds of application servers Kafka. Automation with Ansible, Build and Deployment with Jenkins. After go-live, maintenance and onboarding as well as first-level support for internal customers. Knowledge transfer and mentoring of new employees and apprentices as well as close cooperation with international development teams and architects of holdings company ING.
 - __Results:__ A plethora of smaller Elasticsearch clusters, tuned to fullfil different search duties for developers in different development stages (load testing, production, development of microservices). 
 - __Tech used:__ Docker, Kubernetes, Openshift, Jenkins, Ansible, Elasticsearch, Logstash, Kibana, Kafka, mTLS
@@ -87,7 +87,7 @@ A (chronological) excerpt of projects i was working on.
 
 ## 2016
 ### Bachelor Thesis - Comparing Apache Flink and Apache Spark for real-time Fraud Detection
-- __Context:__ Bachelor Thesis @ING-DiBa 
+- __Context:__ Bachelor Thesis @ ING-DiBa 
 - __What:__ Scams and Fraud are a huge problem for financial institutes as they often balance a fraction or the whole amount of lost money, depending on the case. Having a real-time sytem that alerts and stops transactions in place which may be deemed fraudulent is thus a reasonable idea. The input data was log files from online banking servers. Due to the load distributions, the target system needed to be able to cache a specific amount of log data (for a specific session duration) for all logged in customers in real-time, and if suspicious activities took place, alert it. There was ongoing work in parallel so the experiences and insights were to be integrated at some point into production systems, therefore there was a lot of architectural work to be done: so for example the system had to communicate with different systems like Apache Kafka to read and write data, and be able to do that securely with mTLS.
 - __Results:__ To compare the two systems, a benchmark was done. After implementing a ruleset that was proven to identify fraudulent cases on a real example logfile and implementing the windowing functionality in Spark and Flink, a four-node Hadoop cluster with YARN was set up to host Spark and Flink. Both Frameworks were provided the logfile via a single-node Kafka machine and business (f.i. exactly-once processing) and technical metrics (ram usage, cpu usage, ...) were reported. Both Frameworks were able to solve the task, with Flinks windowing behaving more natural. 
 
