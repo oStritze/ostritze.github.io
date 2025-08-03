@@ -5,6 +5,18 @@
 layout: default
 title: Home
 permalink: /
+images:
+  - /static/figs/ma/general_1.png
+  - /static/figs/ma/general_2_2.png
+  - /static/figs/ma/medical_2.png
+  - /static/figs/ma/input_mask_full_example.png
+#   - /static/figs/ma/ModelEval.drawio.png
+  - /static/figs/ds/dl_style_transfer.png
+  - /static/figs/ds/world_migration_map.png
+  - /static/figs/ds/vs_nutrition_wide.png
+#  - /static/figs/ds/vs_kibana.png
+  - /static/figs/ds/tweetskb_available_vs_unavailable_bigger.png
+
 ---
 
 # Hello!
@@ -15,7 +27,7 @@ permalink: /
         Hi my name is Oliver Stritzel and I am a Data Engineer and Data Scientist based in Nuremberg, Germany. I try to teach machines to do useful stuff to make your life easier.
     </p>
     <p>
-        I have worked as a data scientist for over 5 years and as a data engineer for 3 years previously. 
+        I have worked as a data scientist for over 5 years and as a big data engineer for 3 years previously. 
     </p>
   </div>
   <div>
@@ -24,15 +36,22 @@ permalink: /
 </div>
 
 
+Feel free to check out my <a href="/files/cv_en.pdf" download>cv</a>, my [projects]({{ site.baseurl }}/projects/) and [reach out]({{ site.baseurl }}/contact/)!
 
 
+### Exposé
 
-<br>
+<div class="swiper">
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    {% for image in page.images %}
+      <div class="swiper-slide">
+        <img src="{{ image }}" alt="Slide {{ forloop.index }}">
+      </div>
+    {% endfor %}  </div>
 
----
-
-<br>
-
-
-Feel free to check out my <a href="/files/cv_en.pdf" download>cv</a>, my [projects]({{ site.baseurl }}/projects/) or [reach out]({{ site.baseurl }}/contact/)!
-
+  <!-- Pagination and Navigation -->
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>

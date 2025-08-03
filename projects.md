@@ -2,13 +2,25 @@
 layout: default
 title: Projects
 permalink: /projects/
+images:
+  - /static/figs/ma/general_1.png
+  - /static/figs/ma/general_2_2.png
+  - /static/figs/ma/medical_2.png
+  - /static/figs/ma/input_mask_full_example.png
+  - /static/figs/ma/model_comparison_blur_adapthist_clip01.png
+  - /static/figs/ma/ModelEval.drawio.png
+
 ---
 
 # Projects
 
 A (chronological) excerpt of projects i was working on.
 
+<br>
+
 ---
+
+<br>
 ## 2025
 ### Recommender System for Medical Treatment Planning 
 - __Context:__ Funded Research Project - [iPAB](https://www.scs.fraunhofer.de/de/referenzen/iPAB.html)
@@ -39,9 +51,22 @@ A (chronological) excerpt of projects i was working on.
 - __Results:__ The full thesis is available [here](https://repositum.tuwien.at/handle/20.500.12708/80544) and [here](static/thesis-stritzel-paco.pdf). Parts of the thesis have been published as a paper [here](https://diglib.eg.org/items/bd4e914f-6dc5-4367-a82a-6c955085b7a7)
 - __Tech used:__ pandas, opencv, pytorch, nvidia cuda, scikit-learn (unbalanced multi-target prediction and clustering), streamlit, plotly, 
 
-![Model Comparisons](static/figs/model_comparison_blur_adapthist_clip01.png)
+<div class="swiper">
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    {% for image in page.images %}
+      <div class="swiper-slide">
+        <img src="{{ image }}" alt="Slide {{ forloop.index }}">
+      </div>
+    {% endfor %}  </div>
 
-![Segmentation example](static/figs/input_mask_full_example.png)
+  <!-- Pagination and Navigation -->
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+<br>
+
 
 ### History of Twitter - How Tweets are disappearing over time
 - __Context:__ Interdisciplinary Project in Master Curriculum
@@ -49,7 +74,7 @@ A (chronological) excerpt of projects i was working on.
 - __Results:__ This work shows that language has a high influence over the tweet disappearance and that it is non-trivial to infer language from outside of twitter, it is non-trivial to work with a high amount of twitter data and we provide an overview of most used terms for deleted or privated tweets of male and female users of Twiter which shows clear differences. Parts of this work have been published [here](https://ojs.aaai.org/index.php/ICWSM/article/view/22182).
 - __Tech used:__ hadoop, spark, REST, pandas, scikit-learn, NLP (tf-idf, n-gram), bootstrapping / data sampling
 
-![Disappearence of tweets over time](static/figs/tweetskb_available_vs_unavailable_bigger.png)
+![Disappearence of tweets over time](/static/figs/ds/tweetskb_available_vs_unavailable_bigger.png)
 
 
 ## 2018

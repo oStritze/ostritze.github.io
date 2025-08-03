@@ -47,3 +47,17 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px; 
+  background: #f8f8f8; 
+}
+
+.swiper-slide img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
