@@ -48,17 +48,6 @@ permalink: /bio/
 - Thesis: Evaluation of Apache Flink & Apache Spark when dealing with real-time detection of
 fraud in log data from public web servers in cooperation with ING-DiBa AG.
 
-<!-- After graduating my bachelor in __Media and Computer Science__ i started working as a __Big Data Engineer__ @ING-DiBa. We did a lot of cool stuff including terabytes of real-time data gathering to provide centralized logging for devs via a plethora of kubernetes managed elasticsearch clusters, all things automated.  
-
-I left for Vienna to do my masters in __Data Science__ @[TU-Vienna](https://informatics.tuwien.ac.at/master/data-science/), where i had to do [30](https://tiss.tuwien.ac.at/curriculum/public/curriculum.xhtml?dswid=9531&dsrid=626&locale=en&key=67853) courses in 1.5 years and learned so much. 
-
-Since 2022 i am a __Researcher__, __Senior Engineer__ and __Data Scientist__ @Fraunhofer-IIS in Nuremberg. 
-
-My focus areas are: classical ML, Deep Learning, NLP, data visualization
-
-I mostly work in __Python__ but i know my way around Java, R, C# and some Scala. -->
-
-
 <br>
 
 ---
