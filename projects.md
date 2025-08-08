@@ -41,7 +41,7 @@ A (chronological) excerpt of projects i was working on.
 - __Context:__ Industry Project (for Fraunhofer IIS)
 - __What:__ Automating material delivery method planning for assembly lines in engine manufacturing by training a ML model. Creating automated ETL data pipeline from customers cloud infrastructure to get daily data from ERP systems. Data preprocessing, feature engineering and training of a multi-class unbalanced classification (Random Forest, CatBoost, Logistic Regression) of delivery strategies based on target positions in manufacturing as well as material features (size, weight). Development of a usable demo for the customer (Streamlit). Support for in-line integration of customers IT.
 - __Results:__ CatBoost models were robust and quite well performing as most features were categorical. Models were ported to production systems by the companies IT later on to be integrated in their planning system. 
-- __Tech used:__ Docker, Kubernetes, sftp, bash/cron, conda, scikit-learn, Catboost, imbalanced-learn, pandas, streamlit
+- __Tech used:__ Docker, sftp, bash/cron, Anaconda, scikit-learn, CatBoost, imbalanced-learn, pandas, streamlit
 
 
 ## 2022
@@ -82,7 +82,7 @@ A (chronological) excerpt of projects i was working on.
 - __Context:__ Internal Project @ ING-DiBa
 - __What:__ Design and development of an on-premise, multi-tenant monitoring and log aggregation platform, based on Redhat OpenShift/Kubernetes, Docker, Apache Kafka and Elastic-Stack: Elasticsearch, Kibana, Logstash and Beats. Handling terabytes of daily log data from hundreds of application servers Kafka. Automation with Ansible, Build and Deployment with Jenkins. After go-live, maintenance and onboarding as well as first-level support for internal customers. Knowledge transfer and mentoring of new employees and apprentices as well as close cooperation with international development teams and architects of holdings company ING.
 - __Results:__ A plethora of smaller Elasticsearch clusters, tuned to fullfil different search duties for developers in different development stages (load testing, production, development of microservices). 
-- __Tech used:__ Docker, Kubernetes, Openshift, Jenkins, Ansible, Elasticsearch, Logstash, Kibana, Kafka, mTLS
+- __Tech used:__ Docker, Kubernetes, Openshift, Jenkins, Ansible, Elasticsearch, Logstash, Beats (Filebeat, Metricbeat), Kibana, Kafka
 
 
 ## 2016
